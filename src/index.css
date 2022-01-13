@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.grid-container {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-areas: "navigation" "main" "footer";
+    grid-template-rows: 100px 1fr 100px;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: main;
+    background-color: grey;
+}
+
+.test-div {
+    width: 100px;
+    height: 200px;
+    background-color: red;
+}
+
+.navigation {
+    grid-area: navigation;
+    background-color: aqua;
+}
+
+.grid-container
+
+.search-bar {
+    align-self: auto;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: yellowgreen;
+}
