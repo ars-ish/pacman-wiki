@@ -1,21 +1,60 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+<head>
     <meta charset="utf-8">
-    <title>pacman book</title>
+    <title>Pacman wiki</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
     <link rel="stylesheet" href="./index.css">
-  </head>
-  <body>
-  <div class="grid-container">
-    <header class="navigation">
-      <h1 class="monster-name"></h1>
-      <select class="page-select"></select>
-      <input type="search" class="search-bar">
+</head>
+<body>
+<div class="grid-container">
+    <div class="header-left-empty-space"></div>
+    <div class="header-right-empty-space"></div>
+    <header class="header">
+        <ul class="navigation">
+            <li class="home-logo"><a href="index.html"><img src="images/pixel-pacman.png">Home</a></li>
+            <li><a href="#">Monsters</a>
+                <ul class="dropdown">
+                    <li><a href="shadow.html">Шэдоу</a></li>
+                    <li><a href="#">Monster2</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="search-form">
+            <div>
+                <input type="search" class="search-bar" placeholder="Введите запрос..">
+                <button>Поиск</button>
+            </div>
+        </form>
     </header>
     <main class="content">
-      <div class="test-div"></div>
+        <h1>Pac-Man</h1>
+        <h3>Описание</h3>
+        <p>Pac-Man — аркадная видеоигра, разработанная японской компанией Namco и вышедшая в 1980 году. Задача игрока —
+            управляя Пакманом, съесть все точки в лабиринте, избегая встречи с привидениями, которые гоняются за героем.
+            С повышением уровня игры изменяется только её сложность, архитектура лабиринта остаётся идентичной. Всего в
+            игре 256 уровней, последний из которых невозможно завершить из-за ошибки переполнения.</p>
+        <hr/>
+        <h3>Описание</h3>
+        <div>
+            <img class="arcade-image" src="./images/playing-machine.jpg">
+            <p>Pac-Man — аркадная видеоигра, разработанная японской компанией Namco и вышедшая в 1980 году. Задача
+                игрока — управляя Пакманом, съесть все точки в лабиринте, избегая встречи с привидениями, которые
+                гоняются за героем. С повышением уровня игры изменяется только её сложность, архитектура лабиринта
+                остаётся идентичной. Всего в игре 256 уровней, последний из которых невозможно завершить из-за ошибки
+                переполнения.</p>
+        </div>
     </main>
-    <footer class="footer"></footer>
- </div>
-  </body>
+    <footer class="footer">
+        <div class="test">
+            <p>&#169;&nbsp;2022 г. Ишемгулов Арслан</p>
+            <div class="contacts">
+                <p class="mail"><a href="mailto:arslan.ishemgulov@gmail.com">arslan.ishemgulov@gmail.com</a></p>
+                <p class="tlg"><a href="https://telegram.me/ars_is_like">@ars_is_like</a></p>
+            </div>
+        </div>
+        <p class="phone">+7(902)-156-50-46</p>
+    </footer>
+</div>
+</body>
 </html>
