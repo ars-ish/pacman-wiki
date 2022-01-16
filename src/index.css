@@ -20,27 +20,39 @@ body {
 }
 
 .content {
-  padding: 1vw;
+  padding: 6vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
   grid-area: main;
-  padding: 6vw;
   background-color: white;
   margin: 20px;
   box-sizing: border-box;
   box-shadow: 4px 4px 8px 0 #aaac;
 }
 
-.arcade-image {
-  float: right;
-  margin: 1em 0;
+.content p {
+  margin: 0.5em;
+  line-height: 1.3em;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.ghost-block {
+  display: flex;
+  align-items: center;
+}
+
+.content img {
+  margin: 0.5em;
   width: 300px;
+  float: left;
 }
 
 hr {
-  margin-left: 0;
-  margin-right: 0;
+  margin: 5px 0 20px;
 }
 
 .search-bar {

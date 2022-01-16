@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Pacman wiki</title>
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="grid-container">
+    <div class="header-left-empty-space"></div>
+    <div class="header-right-empty-space"></div>
+    <header class="header">
+        <ul class="navigation">
+            <li class="home-logo"><a href="index.html"><img src="images/pixel-pacman.png">Home</a></li>
+            <li><a href="#">Monsters</a>
+                <ul class="dropdown">
+                    <li><a href="red-ghost.html">Шэдоу</a></li>
+                    <li><a href="blue-ghost.html">Башфул</a></li>
+                </ul>
+            </li>
+        </ul>
+        <form class="search-form">
+            <div>
+                <input type="search" class="search-bar" placeholder="Введите запрос..">
+                <button>Поиск</button>
+            </div>
+        </form>
+    </header>
+    <main class="content">
+        <h1>Башфул</h1>
+        <hr/>
+        <div class="ghost-block">
+            <img alt="blue-ghost" src="images/blue-ghost.png">
+            <p>Голубой призрак Башфул (англ. Bashful) по прозвищу Инки (англ. Inky). Оригинальное японское имя —
+                Кимагурэ (яп. 気まぐれ, непостоянный), прозвище — Аосукэ (яп. 青助, голубой). Использует самый сложный
+                алгоритм преследования: для определения направления движения строится отрезок, один из концов которого
+                определяется положением Блинки, а середина находится на 2 клетки перед Пакманом. Второй конец отрезка —
+                искомая целевая точка. Получившуюся точку сложно предсказать, поэтому Инки считается самым опасным
+                привидением. Из-за ошибки переполнения, аналогичной в поведении Пинки, во время движения Пакмана вверх
+                целевая клетка Инки это две клетки вверх и две влево от Пакмана.</p>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="test">
+            <p>&#169;&nbsp;2022 г. Ишемгулов Арслан</p>
+            <div class="contacts">
+                <p class="mail"><a href="mailto:arslan.ishemgulov@gmail.com">arslan.ishemgulov@gmail.com</a></p>
+                <p class="tlg"><a href="https://telegram.me/ars_is_like">@ars_is_like</a></p>
+            </div>
+        </div>
+        <p class="phone">+7(902)-156-50-46</p>
+    </footer>
+</div>
+</body>
+</html>
